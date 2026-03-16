@@ -50,13 +50,12 @@ body {
 }
 
 form {
-  flex: 1;
   background-color: blue;
+  padding-block: 1em;
 }
 
 h2 {
   margin: 0;
-  padding-top: 0;
   margin-bottom: 0.5em;
 }
 
@@ -64,13 +63,13 @@ h2 {
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .form-row {
   display: flex;
   gap: 4em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .form-row label {
@@ -79,11 +78,12 @@ h2 {
 
 label {
   font-size: smaller;
+  padding-bottom: 0.25em;
 }
 
 input {
   width: 16em;
-  height: 20px;
+  padding: 4px;
 }
 
 #account {
