@@ -5,8 +5,8 @@ body {
 }
 
 #sidebar {
-  background-color: orange;
   flex: 1;
+  background-color: orange;
 }
 
 #content-area {
@@ -18,8 +18,8 @@ body {
 }
 
 #introduction {
-  background-color: red;
   flex: 1;
+  background-color: red;
 }
 
 form {
@@ -27,11 +27,15 @@ form {
   background-color: blue;
 }
 
+h2 {
+  margin: 0;
+}
+
 #form {
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .form-row {
