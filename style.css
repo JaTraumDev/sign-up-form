@@ -3,7 +3,7 @@ body {
   height: 100vh;
   margin: 0;
 
-  font-size: clamp(16px, 1.4vh, 24px);
+  font-size: clamp(14px, 1.5vh, 22px);
 }
 
 #sidebar {
@@ -64,7 +64,7 @@ form {
 
 h2 {
   margin: 0;
-  margin-block: 1rem;
+  margin-block: 2rem;
   font-size: 1.8em;
 }
 
@@ -78,7 +78,7 @@ h2 {
 .form-row {
   display: flex;
   gap: 4em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .form-row label {
@@ -90,7 +90,7 @@ h2 {
 }
 
 label {
-  font-size: 0.8rem;
+  font-size: 1em;
   padding-bottom: 0.25em;
 }
 
