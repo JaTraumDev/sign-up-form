@@ -5,8 +5,25 @@ body {
 }
 
 #sidebar {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   background-color: orange;
+}
+
+#sidebar-row {
+  background-color: pink;
+  flex: 1;
+}
+
+.sidebar-placeholder {
+  background-color: violet;
+  flex: 1;
+}
+
+.sidebar-placeholder:last-of-type {
+  flex: 1;
+  background-color: black;
 }
 
 #content-area {
@@ -15,6 +32,7 @@ body {
 
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 #introduction {
@@ -23,55 +41,58 @@ body {
 
   display: flex;
   align-items: flex-end;
-  padding-bottom: 4em;
 }
 
 #introduction div {
   max-width: 512px;
   font-size: larger;
+  padding-bottom: 2em;
 }
 
 form {
-  flex: 0.5;
+  flex: 1;
   background-color: blue;
 }
 
 h2 {
   margin: 0;
-  padding-block: 0.5em;
+  padding-top: 0;
+  margin-bottom: 0.5em;
 }
 
 #form {
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: space-around;
-}
-
-#form-items {
-  padding-bottom: 1em;
+  justify-content: space-evenly;
 }
 
 .form-row {
   display: flex;
   gap: 4em;
-}
-
-.form-row {
-  padding-bottom: 1em;
-}
-
-input {
-  width: 18em;
+  margin-bottom: 0.5em;
 }
 
 .form-row label {
   display: block;
 }
 
+label {
+  font-size: smaller;
+}
+
+input {
+  width: 16em;
+  height: 20px;
+}
+
 #account {
   flex: 1;
+
   background-color: yellow;
+}
+
+#account div {
   padding-top: 2em;
 }
 

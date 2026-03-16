@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="sidebar"></div>
+    <div id="sidebar">
+      <div id="sidebar-row"></div>
+      <div class="sidebar-placeholder"></div>
+      <div class="sidebar-placeholder"></div>
+    </div>
     <div id="content-area">
       <div id="introduction">
         <div>
@@ -44,18 +48,18 @@
             <div class="form-row">
               <div>
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" />
+                <input type="password" name="password" id="password" required />
               </div>
               <div>
                 <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password" id="confirm-password" />
+                <input type="password" name="confirm-password" id="confirm-password" required />
               </div>
             </div>
           </div>
         </div>
       </form>
       <div id="account">
-        <button type="submit" form="signup-form">Create Account</button>
+        <div><button type="submit" form="signup-form">Create Account</button></div>
       </div>
     </div>
   </body>
