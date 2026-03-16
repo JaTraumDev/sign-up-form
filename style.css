@@ -52,6 +52,7 @@ body {
 form {
   background-color: blue;
   padding-block: 1em;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -88,8 +89,6 @@ input {
 
 #account {
   flex: 1;
-
-  background-color: yellow;
 }
 
 #account div {
