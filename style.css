@@ -20,6 +20,15 @@ body {
 #introduction {
   flex: 1;
   background-color: red;
+
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 4em;
+}
+
+#introduction div {
+  max-width: 512px;
+  font-size: larger;
 }
 
 form {
