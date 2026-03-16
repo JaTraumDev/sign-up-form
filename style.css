@@ -2,6 +2,8 @@ body {
   display: flex;
   height: 100vh;
   margin: 0;
+
+  font-size: clamp(16px, 1.4vh, 24px);
 }
 
 #sidebar {
@@ -13,17 +15,20 @@ body {
 
 #sidebar-row {
   background-color: pink;
+
   flex: 1;
 }
 
 .sidebar-placeholder {
   background-color: violet;
+
   flex: 1;
 }
 
 .sidebar-placeholder:last-of-type {
-  flex: 1;
   background-color: black;
+
+  flex: 1;
 }
 
 #content-area {
@@ -38,26 +43,29 @@ body {
 #introduction {
   flex: 1;
   background-color: red;
+  font-size: 1.4rem;
 
   display: flex;
   align-items: flex-end;
 }
 
 #introduction div {
-  max-width: 512px;
   font-size: larger;
-  padding-bottom: 2em;
+  padding-block: 2em;
+  padding-right: 2em;
 }
 
 form {
   background-color: blue;
-  padding-block: 1em;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+
+  flex: 1;
 }
 
 h2 {
   margin: 0;
-  margin-bottom: 0.5em;
+  margin-block: 1rem;
+  font-size: 1.8em;
 }
 
 #form {
@@ -77,8 +85,12 @@ h2 {
   display: block;
 }
 
+#form-items {
+  margin-bottom: 0.5em;
+}
+
 label {
-  font-size: smaller;
+  font-size: 0.8rem;
   padding-bottom: 0.25em;
 }
 
@@ -98,5 +110,5 @@ input {
 #introduction,
 form,
 #account {
-  padding-inline: 2em;
+  padding-inline: 48px;
 }
