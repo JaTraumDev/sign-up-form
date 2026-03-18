@@ -161,6 +161,17 @@ input[type="password"]:valid {
   padding-top: 2em;
 }
 
+button {
+  background-color: #596d48;
+  padding: 1em;
+  padding-inline: 3em;
+  border-style: none;
+  border-radius: 8px;
+  font-size: large;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.319);
+}
+
 #introduction,
 form,
 #account {
