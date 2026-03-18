@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 @font-face {
   font-family: Norse;
   src: url("/font/Norse-Bold.otf");
@@ -6,10 +8,13 @@
 
 body {
   display: flex;
+
   height: 100vh;
   margin: 0;
 
   font-size: clamp(14px, 1.5vh, 22px);
+  font-family: "Open Sans";
+
   background-color: #f9fafb;
 }
 
@@ -48,6 +53,7 @@ body {
 
 #introduction div {
   font-size: larger;
+  font-weight: bold;
   padding-block: 2.5em;
   padding-right: 2em;
 }
@@ -118,7 +124,10 @@ h2 {
 }
 
 label {
-  font-size: 1em;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: rgb(29, 29, 29);
   padding-bottom: 0.25em;
 }
 
@@ -126,8 +135,10 @@ input {
   border-color: #e5e7eb;
   border-style: solid;
   border-radius: 4px;
-  width: 16em;
+  width: 20em;
   padding: 4px;
+
+  font-size: 0.7em;
 }
 
 input:focus {
