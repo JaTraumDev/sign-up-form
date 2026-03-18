@@ -1,38 +1,37 @@
+@font-face {
+  font-family: Norse;
+  src: url("/font/Norse-Bold.otf");
+  font-weight: bold;
+}
+
 body {
   display: flex;
   height: 100vh;
   margin: 0;
 
   font-size: clamp(14px, 1.5vh, 22px);
+  background-color: #f9fafb;
 }
 
 #sidebar {
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: orange;
 }
 
 #sidebar-row {
-  background-color: pink;
-
   flex: 1;
 }
 
 .sidebar-placeholder {
-  background-color: violet;
-
   flex: 1;
 }
 
 .sidebar-placeholder:last-of-type {
-  background-color: black;
-
   flex: 1;
 }
 
 #content-area {
-  background-color: purple;
   flex: 2;
 
   display: flex;
@@ -42,7 +41,6 @@ body {
 
 #introduction {
   flex: 1;
-  background-color: red;
   font-size: 1.4rem;
 
   display: flex;
@@ -55,8 +53,34 @@ body {
   padding-right: 2em;
 }
 
+#sidebar-row {
+  font-family: Norse;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#sidebar-row div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.464);
+}
+
+h1 {
+  margin: 0;
+  font-size: 6em;
+}
+
+img {
+  aspect-ratio: auto;
+  width: 8em;
+}
+
 form {
-  background-color: blue;
+  background-color: white;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 
   flex: 1;
@@ -95,6 +119,9 @@ label {
 }
 
 input {
+  border-color: #e5e7eb;
+  border-style: solid;
+  border-radius: 4px;
   width: 16em;
   padding: 4px;
 }
