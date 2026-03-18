@@ -30,10 +30,6 @@ body {
   flex: 1;
 }
 
-.sidebar-placeholder:last-of-type {
-  flex: 1;
-}
-
 #content-area {
   flex: 2;
 
@@ -59,17 +55,20 @@ body {
 #sidebar-row {
   font-family: Norse;
   color: white;
+
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
 #sidebar-row div {
+  background-color: rgba(0, 0, 0, 0.464);
+  padding: 1em;
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
-  background-color: rgba(0, 0, 0, 0.464);
 }
 
 h1 {
@@ -96,16 +95,18 @@ h2 {
 }
 
 #form {
-  display: flex;
   height: 100%;
+
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .form-row {
-  display: flex;
   gap: 4em;
   margin-bottom: 2em;
+
+  display: flex;
 }
 
 .form-row label {
