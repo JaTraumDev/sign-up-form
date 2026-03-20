@@ -68,7 +68,7 @@ body {
 }
 
 #sidebar-row div {
-  background-color: rgba(0, 0, 0, 0.464);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 1em;
 
   display: flex;
@@ -90,7 +90,7 @@ h1 {
 
 img {
   aspect-ratio: auto;
-  width: 8em;
+  width: 12rem;
 }
 
 form {
