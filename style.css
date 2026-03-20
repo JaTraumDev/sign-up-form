@@ -27,10 +27,6 @@ body {
   flex: 1;
 }
 
-#sidebar-row {
-  flex: 1;
-}
-
 .sidebar-placeholder {
   flex: 1;
 }
@@ -61,6 +57,7 @@ body {
 #sidebar-row {
   font-family: "Anta", sans-serif;
   color: white;
+  flex: 1;
 
   display: flex;
   justify-content: center;
