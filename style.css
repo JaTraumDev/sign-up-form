@@ -10,7 +10,8 @@ body {
   font-size: clamp(14px, 1.5vh, 22px);
   font-family: "Open Sans";
 
-  background-color: #f9fafb;
+  background-color: #101010;
+  color: white;
 }
 
 #sidebar {
@@ -89,7 +90,7 @@ img {
 }
 
 form {
-  background-color: white;
+  background-color: rgb(23, 23, 23);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 
   flex: 1;
@@ -128,7 +129,7 @@ label {
   font-size: 0.7em;
   letter-spacing: 2px;
   font-weight: 600;
-  color: rgb(29, 29, 29);
+  color: rgb(223, 223, 223);
   padding-bottom: 0.25em;
 }
 
