@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
 
+:root {
+  --accent-color: #ff8b68;
+}
+
 body {
   display: flex;
 
@@ -144,7 +148,7 @@ input {
 }
 
 i {
-  color: #ff8b68;
+  color: var(--accent-color);
 }
 
 input:focus {
@@ -168,7 +172,7 @@ input[type="password"]:valid {
 }
 
 button {
-  background-color: #596d48;
+  background-color: var(--accent-color);
   padding: 1em;
   padding-inline: 3em;
   border-style: none;
@@ -179,7 +183,7 @@ button {
 }
 
 #login {
-  color: #596d48;
+  color: var(--accent-color);
   text-decoration: none;
   font-weight: bold;
 }
