@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
-@font-face {
-  font-family: Norse;
-  src: url("./font/Norse-Bold.otf");
-  font-weight: bold;
-}
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
 
 body {
   display: flex;
@@ -59,7 +54,7 @@ body {
 }
 
 #sidebar-row {
-  font-family: Norse;
+  font-family: "Anta", sans-serif;
   color: white;
 
   display: flex;
